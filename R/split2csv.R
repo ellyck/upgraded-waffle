@@ -10,8 +10,6 @@
 # https://stackoverflow.com/questions/9713294/split-data-frame-based-on-levels-of-a-factor-into-new-data-frames
 # https://stackoverflow.com/questions/17018138/using-lapply-to-apply-a-function-over-list-of-data-frames-and-saving-output-to-f
 
-
-
 #' @keywords split data frame df csv list factor
 #' @export
 #' @examples
