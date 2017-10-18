@@ -13,10 +13,10 @@
 #' @keywords split data frame df csv list factor
 #' @export
 #' @examples
-#' split2csv(x) # writes CSV files to directory using the element name as filenames.
-
+#' split2csv(mtcars, 'carb') # writes CSV files to the current working directory using the element name as filenames.
 
 split2csv <- function(x, f, directory = getwd()) {
+  setwd(directory)
   df_list <- split(x, as.factor(x[[f]]))
   lapply(1:length(df_list), 
          function(i) write.csv(df_list[[i]], 
