@@ -1,7 +1,6 @@
 #' Proper function
 #'
-#' This function allows you to capitalize the first letter of a word and lowercase subsequent letters. 
-# 'Equivalent to the PROPER() function in Excel. 
+#' This function allows you to capitalize the first letter of a word and lowercase subsequent letters. Equivalent to the PROPER() function in Excel. 
 
 #' Credit: Matthew Plourde
 #' https://stackoverflow.com/questions/24956546/capitalizing-letters-r-equivalent-of-excel-proper-function

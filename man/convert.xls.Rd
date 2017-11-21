@@ -18,6 +18,9 @@ Credits: Chris Wallace
 Adapted from: https://cwcode.wordpress.com/2014/04/11/reading-xlsx-files-into-r-quickly/
 Resource: https://linuxconfig.org/converting-xlsx-excel-format-files-to-csv-on-linux
 }
+\examples{
+convert.xls(filename="Spreadsheet.xlsx") # writes out spreadsheet files as CSV to working directory
+}
 \keyword{convert}
 \keyword{csv}
 \keyword{excel}

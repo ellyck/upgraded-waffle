@@ -10,7 +10,7 @@
 
 #' @keywords dedupe duplicate
 #' @export
-#' @examples
+#' @examples dedupe(df1, df2) # returns non-matching rows from df1
 
 
 dedupe <- function(x, y, var.x, var.y=var.x){

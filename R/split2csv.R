@@ -15,6 +15,7 @@
 #' @examples
 #' split2csv(mtcars, 'carb') # writes CSV files to the current working directory using the element name as filenames.
 
+
 split2csv <- function(x, f, directory = getwd()) {
   setwd(directory)
   df_list <- split(x, as.factor(x[[f]]))

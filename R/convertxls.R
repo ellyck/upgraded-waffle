@@ -13,7 +13,7 @@
 
 #' @keywords convert xlsx xls excel spreadsheet csv
 #' @export
-#' @examples
+#' @examples convert.xls(filename="Spreadsheet.xlsx") # writes out spreadsheet files as CSV to working directory
 
 
 convert.xls <- function(filename, out.dir=getwd()) {
